@@ -216,19 +216,19 @@ You can also visit it directly at https://your-custom-app-name.herokuapp.com.
 
 ### Book Endpoints
 
-*   **GET /my-library-api-system/library/book** Fetch all books from the library.
+*   **GET /library/book** Fetch all books from the library.
 
-*   **POST /my-library-api-system/library/book** Add a new book to the library (body must contain title, author, year, and genre).
+*   **POST /library/book/add** Add a new book to the library (body must contain title, author, year, and genre).
 
-*   **PUT /my-library-api-system/library/book/:id** Update the details of a specific book by its ID.
+*   **PUT /library/book/update/:id** Update the details of a specific book by its ID.
     
-*   **DELETE /my-library-api-system/library/book/:id** Delete a book by its ID.
+*   **DELETE /library/book/delete/:id** Delete a book by its ID.
 
 
 ### Weather Endpoints
 
 *   **GET /my-library-api-system/weather/:city** Get the weather details of a specific city. For example, GET /my-library-api-system/weather/New York will return the weather for New York.
-
+*  **Fill the space with %20 (new%20york)**
 
 ## Error Handling
 
